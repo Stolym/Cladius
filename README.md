@@ -30,4 +30,4 @@ Join our community on [Community Platform] for discussions, support, and sharing
 
 #### 1.2 Overview
 
-![](img\depthwise_attention_convolution.png)
+![](./img/depthwise_attention_convolution.png)
