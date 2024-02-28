@@ -48,5 +48,5 @@ class GlobalChannelCovariancePooling(nn.Module):
         xprods = torch.bmm(xdiff.unsqueeze(2), xdiff.unsqueeze(1)).reshape(B, N, D, D)
         xbcov = xprods.sum(dim=1) / (N - 1)
         if self.attention:
-            return self.softmax(self.attention(xbcov.mean(dim=-1)))
+            return self.softmax(self.rearrange_attention(xbcov.mean(dim=-1)))
         return xbcov
