@@ -1,7 +1,6 @@
-<style>
+<!-- <style>
 clink { color: #6c1be4; font-weight: bold; font-style: italic; }
-</style>
-
+</style> -->
 
 # ***Cladius: ML Solutions Library***
 
