@@ -3,16 +3,14 @@
 
 from tensorflow import keras
 from keras import layers, activations, regularizers
-from model import Logish
 
 import tensorflow as tf
 
 
 # Homemade
-
-
+Logi
 class BasicDepthwiseAttentionConvolution(layers.Layer):
-
+    
     def __init__(
             self,
             activation_depth="relu",
@@ -70,6 +68,7 @@ class BasicDepthwiseAttentionConvolution(layers.Layer):
         if self.use_normalization:
             self.__C = self.normalization(self.__B)
         return self.__C
+
 
 class DepthwiseAttentionConvolution(layers.Layer):
 

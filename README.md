@@ -1,8 +1,13 @@
-**Cladius: ML Solutions Library**
+<style>
+clink { color: #6c1be4; font-weight: bold; font-style: italic; }
+</style>
+
+
+# ***Cladius: ML Solutions Library***
 
 **Description:**
 
-Welcome to the ML Solutions Library, an open-source repository dedicated to providing efficient, scalable, and easy-to-implement machine learning solutions. This project aims to bridge the gap between theoretical machine learning concepts and practical application needs.
+Welcome to the Cladius, an open-source repository dedicated to providing efficient, scalable, and easy-to-implement machine learning solutions. This project aims to bridge the gap between theoretical machine learning concepts and practical application needs.
 
 Our library offers a comprehensive collection of modules, including various machine learning algorithms, pre-trained models, data preprocessing tools, and evaluation metrics. We focus on creating reusable components that can be easily integrated into your projects, saving time and effort in developing machine learning solutions from scratch.
 
@@ -16,11 +21,19 @@ Whether you're working on classification, regression, clustering, or neural netw
 - Community-driven enhancements and support
 
 **Getting Started:**
-To get started with the ML Solutions Library, please check out our [Installation Guide] and [User Manual]. For contributions, please refer to our [Contributing Guidelines].
+To get started with the Cladius, please check out our ***[Installation Guide]*** and ***[User Manual]***. For contributions, please refer to our ***[Contributing Guidelines]***.
 
 **Support and Community:**
-Join our community on [Community Platform] for discussions, support, and sharing ideas. Your contributions and feedback are welcome!
+Join our community on ***[Community Platform]*** for discussions, support, and sharing ideas. Your contributions and feedback are welcome!
 
+---
+### Summary
+
+#### [<clink>Activations</clink>](#)
+> * [<clink>Logish</clink>](#)
+> * [<clink>Gish</clink>](#)
+#### [<clink>Convolutions</clink>](#)
+> * [<clink>Depthwise Attention Convolution</clink>](#)
 
 
 ### 1. Depthwise Attention Convolution
