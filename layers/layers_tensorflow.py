@@ -1,4 +1,7 @@
 from layers.activations.gish_tensorflow import Gish
 from layers.activations.logish_tensorflow import Logish
 
+from layers.convolutions.squeeze_and_excitation_tensorflow import SELayer
+from layers.convolutions.selective_kernel_tensorflow import SKLayer
+
 from layers.convolutions.depthwise_attention_convolution_tensorflow import BasicDepthwiseAttentionConvolution, DepthwiseAttentionConvolution
