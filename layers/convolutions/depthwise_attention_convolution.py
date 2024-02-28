@@ -1,14 +1,9 @@
 # Deprecated that is based on tensorflow we will switch on pytorch
 
-
-from tensorflow import keras
-from keras import layers, activations, regularizers
-
-import tensorflow as tf
-
+from keras import layers
+from layers.layers_tensorflow import *
 
 # Homemade
-Logi
 class BasicDepthwiseAttentionConvolution(layers.Layer):
     
     def __init__(

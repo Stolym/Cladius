@@ -1,2 +1,4 @@
 from layers.activations.gish_tensorflow import Gish
 from layers.activations.logish_tensorflow import Logish
+
+from layers.convolutions.depthwise_attention_convolution import BasicDepthwiseAttentionConvolution, DepthwiseAttentionConvolution
