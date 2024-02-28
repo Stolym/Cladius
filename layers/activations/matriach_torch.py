@@ -3,6 +3,7 @@ import torch.nn as nn
 
 class Matriach(nn.Module):
     # Homemade
+    # Fusion/Mix between the performance of Gish and Logish
 
     def __init__(self, alpha: float = 1.0, beta: float = 1.0, theta: float = 1, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
