@@ -13,5 +13,5 @@ class SELayer(layers.Layer):
     def call(self, inputs):
         x = self.pool(inputs)
         x = self.fc(x)
-        x = tf.reshape(x, [-1, 1, 1, inputs.shape[-1]])  # Reshape to (batch, 1, 1, channels)
+        x = tf.reshape(x, [-1, 1, 1, inputs.shape[-1]])
         return inputs * x
