@@ -13,4 +13,4 @@ class Matriach(nn.Module):
         self.meta = meta
 
     def forward(self, x):
-        return x * self.alpha * (1/(self.theta*1+torch.exp(-x*self.beta)*torch.log(2-torch.exp(-torch.exp(-x*self.meta)))))
+        return x*self.alpha*(1/(self.theta*1+torch.exp(-x*self.beta)*torch.log(2-torch.exp(-torch.exp(-x*self.meta)))))
