@@ -1,0 +1,5 @@
+data/*
+auto/loader/saved/*
+auto/model/saved/*
+
+__pycache__

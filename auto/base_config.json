@@ -1,0 +1,6 @@
+{
+    "batch_size": 32,
+    "epochs": 100,
+    "plot": false,
+    "depracated": "This file is depracated. Please use the new config file format."
+}
